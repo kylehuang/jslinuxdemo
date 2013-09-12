@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Kyle's Zone</title>
+  </head>
+
+  <body>
+	<center>
+    <h1>Welcome to Kyle's Zone!</h1>
+    <div align=center>
+		<span><a href="http://bellard.org/jslinux/" target="_blank">A PC emulator in Javascript</a> created by <a href="http://en.wikipedia.org/wiki/Fabrice_Bellard" target="_blank">Fabrice Bellard</a> : how much time takes your browser to boot Linux ? (a recent browser is required)</span>
+		<p align=center><button id="jslinux-stop" style="display: none" onclick="document.getElementById('jslinux').src='about:blank';document.getElementById('jslinux-stop').style.display='none';document.getElementById('jslinux-start').style.display='';">Shutdown</button><button  id="jslinux-start" onclick="document.getElementById('jslinux').src='http://bellard.org/jslinux/';document.getElementById('jslinux-start').style.display='none';document.getElementById('jslinux-stop').style.display='';document.getElementById('jslinux').focus();">Startup Jslinux</button></p>
+		<p align=center><iframe id="jslinux" frameborder="0" style="background:#000;border:0" width="650" height="513" src="" marginwidth="0" marginheight="0" hspace="0" vspace="0" scrolling="no"></iframe></p>
+	</div>
+	<div id="copyright" align=center>Author: <a href="http://en.wikipedia.org/wiki/Fabrice_Bellard" target="_blank">Fabrice Bellard</a> - <a href="http://bellard.org/jslinux/" target="_blank">Js/Linux</a></div>
+    </center>
+  </body>
+</html>
